@@ -1,0 +1,107 @@
+<!doctype html>
+<html class="no-js" lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Foundation | Welcome</title>
+      <link rel="stylesheet" href="css/foundation.css" />
+      <link rel="stylesheet" href="css/style.css" />
+      <script src="js/vendor/modernizr.js"></script>
+      <script src="js/vendor/jquery.js"></script>
+      <script src="js/foundation.min.js"></script>
+      <script src="js/handlebars.js"></script>
+
+   </head>
+   <body>
+      <div class="large-12 columns cabecera">
+         <div class="row">
+            <div class="large-4 medium-4 small-4 columns">
+               <img class="imagredonda" src="img/550496_10150967879343836_722695636_n.jpg">
+            </div>
+            <div class="large-8 medium-8 small-8 columns ">
+               <div class="large-12 medium-12 small-12 columns nombre">Miguel Gomez </div>
+               <div class="large-6 medium-6  small-6 columns puntos">Puntos </div>
+               <div class="large-6 medium-6 small-6 columns posicion">Posicion </div>
+               <div class="large-6 medium-6 small-6 columns deta"> 20 </div>
+               <div class="large-6 medium-6 small-6 columns deta"> 120 </div>
+            </div>
+         </div>
+      </div>
+      <div class="large-6 medium-6 small-6 columns menuele">Menu </div>
+      <div class="large-6 medium-6  small-6 columns menuele">Menu </div>
+      <div class="large-12 medium-12  small-12 columns menumas"> Ver mas Opciones </div>
+      <div id="partidos">
+
+      </div>
+<script id="resultados" type="text/x-handlebars-template">
+
+<div class="large-6 medium-6 small-12  columns resutados">
+   <div class=" verpeque2">
+      <span class="azulpe">{{location}}</span> {{datetime}}
+   </div>
+   <div class="large-5 medium-5 small-5  columns equipo">
+      <div class="summar">
+         <div class="small-6  columns mas " style="display:none"  >
+            -
+         </div>
+         <div class="small-6  columns menos" style="display:none"   >
+            +
+         </div>
+         <img src="img/{{toLowerCase home_team.code}}.png"  class="verpeque">
+      </div>
+      <div class="small-12  columns nombrequipo">
+         {{home_team.country}}
+      </div>
+      <div class="small-12 marcador">
+         0
+      </div>
+   </div>
+   <div class="large-2  medium-2 small-2  columns vss">
+      vs
+   </div>
+   <div class="large-5 medium-5 small-5  columns equipo">
+      <div class="summar">
+         <div class="small-6  columns mas " style="display:none"  >
+            -
+         </div>
+         <div class="small-6  columns menos" style="display:none"  >
+            +
+         </div>
+         <img src="img/{{toLowerCase away_team.code}}.png"  class="verpeque">
+      </div>
+      <div class="small-12  columns nombrequipo"   >
+         {{away_team.country}}
+      </div>
+      <div class="small-12 marcador">
+         0
+      </div>
+   </div>
+</div>
+
+</script>
+<script id="template" type="text/x-handlebars-template">
+  <table>
+    <thead>
+      <th>Username</th>
+      <th>Real Name</th>
+      <th>Email</th>
+    </thead>
+    <tbody>
+      {{#users}}
+        <tr>
+          <td>{{username}}</td>
+          <td>{{firstName}} {{lastName}}</td>
+          <td>{{email}}</td>
+        </tr>
+      {{/users}}
+    </tbody>
+  </table>
+</script>
+
+      <script>
+         $(document).foundation();
+      </script>
+<script src="js/app.js"></script>
+
+   </body>
+</html>

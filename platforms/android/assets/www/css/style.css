@@ -1,0 +1,195 @@
+body{
+    background: #dddddd;
+}
+
+.cabecera{
+
+    background: #454545;
+    
+    color: #ffffff;
+}
+
+.menuele{
+
+    background: #008fd8;
+
+    color: #ffffff;
+
+    font-size: 1em;
+
+    height: 2em;
+
+    padding-left: 2em;
+
+    padding-top: 0.4em;
+
+}
+
+.menumas{
+
+    background: #046ca1;
+
+    color: #2898d2;
+
+    text-align: center;
+
+    font-size: 1.3em;
+
+}
+
+.resutados{
+    padding: 0.5em;
+    background: #ffffff;
+    margin-top: 5px;
+}
+
+.encuentro{
+   
+
+padding-left: 1.5em;
+padding-right: 1.5em;
+    margin-top: 1em;
+}
+
+.equipo{
+    text-align: center;
+    font-size: 1em;
+    margin-top: 12px;
+}
+
+.encuentro-deta{
+    background: #ffffff;
+    padding-top: 0.3em;
+    color: #7b7b7b;
+    margin-top: 10px;
+
+}
+
+.mas{
+    background: #f14139;
+    color: #ffffff;
+   
+    padding: 1em;
+    cursor:pointer;
+}
+
+.menos{
+    background: #47d0fa;
+    color: #ffffff;
+      padding: 1em;
+     cursor:pointer;
+}
+
+.imgsumar{
+    border: 4px solid #fff;
+    position: absolute;
+    left: 130px; 
+    top: 33px;
+}
+
+.summar{
+    height: 3.2em;
+
+}
+
+.sumar img{
+    background-color: #6495ED;color: #FFF;font-size: 24px;position: absolute;text-align: center;left:42%;top:10%;
+}
+
+
+.marcador{
+    font-weight: bold;
+    font-size: 1.8em;
+    color: #919191;
+
+}
+
+.verpeque2{
+    
+    position: absolute;
+    font-size: 0.8em;
+    background: #dddddd;
+    padding: 4px;
+    color: #838383;
+    
+
+}
+.verpeque{
+    background-color: #6495ED;
+    color: #FFF;
+    position: absolute;
+    text-align: center;
+    left:39%;
+    top:25%;
+    border: #fff 3px solid;
+    width:22%; 
+    height:26%; 
+}
+
+.vss{
+    font-size: 2em;
+    padding-top: 2.2em;
+     text-align: center;
+     font-weight: bold;
+     color: #959090;
+
+}
+.azulpe{
+    color: #2eabe5;
+}
+
+.niga{
+    color: #000000;
+}
+
+.imagredonda {
+width: 80px;
+height: 80px;
+border-radius: 100px;
+-moz-border-radius: 100px;
+-webkit-border-radius: 100px;
+-khtml-border-radius: 100px;
+overflow: hidden;
+margin-left: 30%;
+margin-top: 1.5em;
+margin-bottom: 1.5em;
+}
+
+.nombre{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.puntos{
+    margin-top: 10px;
+    color: #6ac7e3;
+    text-align: center;
+    font-size: 1em;
+    border-bottom: 3px solid #00ace1;
+}
+
+.posicion{
+    margin-top: 10px;
+    color: #6dc16b;
+    text-align: center;
+    font-size: 1em;
+    border-bottom: 3px solid #06b102;
+}
+
+.deta{
+    text-align: center;
+    color: #7b7979;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.nombrequipo{
+    font-weight: bold;
+    color: #474747;
+    font-size: 1.1em;
+}
+
+
+
+
